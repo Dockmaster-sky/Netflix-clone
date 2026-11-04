@@ -1,24 +1,28 @@
 import React from 'react'
-
+import './Login.css'
 
 function Login() {
   return (
-    <div className="container">
-        <div className="row">
+    <div className="container login__container">
+        <div className="login__row row">
             <div className="header">
-                <div className="logo">
+
+                <div className="logo__container">
                     <div className="logo__wrapper">
                         <img src="" alt="" className="logo" />
                         <h2>Netflix</h2>
                     </div>
                 </div>
+
                 <div className="buttons">
                     <select name="hom__select--language" id="">
                         <option value="english" className="cars">English</option>
                     </select>
                     <button className="sign__in">Sign In</button>
                 </div>
+
             </div>
+
             <div className="body">
                 <div className="home__title">
                     <h1 className="title">Unlimited movies, TV shows, and more</h1>

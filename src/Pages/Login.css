@@ -1,0 +1,30 @@
+.header {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.login__row {
+    margin-left: 16px;
+    margin-right: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.body {
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo__container {
+
+}
+
+.login__container {
+    background-color: navy;
+    color: #fff;
+}

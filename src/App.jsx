@@ -7,16 +7,25 @@
 //      --header 'Authorization: Bearer ACCESS_TOKEN'
 // TMDB website
 
+
+//they also use Firebase for authentication
+
 import './App.css';
 import Login from './Pages/Login';
+import Slides from './Components/Slides';
 
 
 function App() {
 
 
   return (
-    <div>
+    <div className="app__container">
       <Login />
+      <Slides />
+      <Slides />
+      <Slides />
+    
+      
      
     </div>
   );
